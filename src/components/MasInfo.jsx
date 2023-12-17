@@ -88,8 +88,6 @@ const MasInfo = () => {
     .map((epi) => epi.split("/")[5])
     .map((epi) => " " + epi);
 
-  console.log(String(episodes));
-
   return (
     <View>
       <ScrollView>
