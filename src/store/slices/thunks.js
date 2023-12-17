@@ -59,6 +59,7 @@ export const PreviousPersonajes = (personaje = "", page = 1, next = "") => {
           personajes: data.results,
           page: page,
           next: data.info.next,
+          maxPage: data.info.pages,
         })
       );
     } catch (error) {
