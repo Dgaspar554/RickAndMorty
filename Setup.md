@@ -22,4 +22,4 @@ npm install
 npx expo start
 ```
 
-4. Escanear QR desde un movil que este conectado a la misma Red Wifi
+4. Escanear QR desde un movil con Expo Go que este conectado a la misma Red Wifi
